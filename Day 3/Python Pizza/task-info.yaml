@@ -1,0 +1,29 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    learner_created: false
+  - name: solution.py
+    visible: true
+    learner_created: false
+status: Failed
+feedback:
+  message: "'Welcome to Python Pizza Deliveries!\\nYour final bill is: $25.\\n' !=\
+    \ 'Welcome to Python Pizza Deliveries!\\nAight foo, yo bill gunna be $25\\n'"
+  time: "Sat, 29 Nov 2025 11:41:20 UTC"
+  expected: |
+    Welcome to Python Pizza Deliveries!
+    Your final bill is: $25.
+  actual: |
+    Welcome to Python Pizza Deliveries!
+    Aight foo, yo bill gunna be $25
+record: -1
