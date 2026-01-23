@@ -50,5 +50,5 @@ for destination in sheet_data:
 
 print("\n✅ Flight search complete!")
 
-# Test email notification
+#  Test email notification
 notification_manager.send_notification("Test message - if you're reading this, email notifications work!")
